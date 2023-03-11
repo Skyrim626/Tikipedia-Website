@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/** Modifying the scrollbar **/
+
+.dropdown-panel {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+/** Search Bar **/
+.search-bar {
+    width: 60%;
+}
+
+/** Title of the Website in the NavBar **/
+.title {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* img {
+    width: 50%;
+}
+ */
+
+
+/** Show scrollbar only when the width is 768 pixel wide **/
+@media (min-width: 768px) {
+
+    .dropdown-panel {
+        scrollbar-width: thin;
+        scrollbar-color: #101010;
+    }
+
+    .dropdown-panel::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /** Track **/
+    .dropdown-panel::-webkit-scrollbar-track {
+        background: none;
+    }
+
+    .dropdown-panel::-webkit-scrollbar-thumb {
+        background: #2c2c2c;
+        border-radius: 10px;
+    }
+
+    /** Handle hover **/
+    .dropdown-panel::-webkit-scrollbar-thumb:hover {
+        background: #aaa;
+    }
+}
+
+
+@media (max-width: 700px) {
+    
+    main .hero-section {
+        background: pink;
+        height: 100vh;
+    }
+
+    .hero-section img{
+        height: 600px;
+    }
+}
