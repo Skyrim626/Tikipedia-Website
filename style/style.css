@@ -65,6 +65,10 @@
     font-weight: 500;
 }
 
+.other-area-header {
+    font-weight: bolder;
+}
+
 
 @media (max-width: 700px) {
     
