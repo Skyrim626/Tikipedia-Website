@@ -14,6 +14,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <script defer src="js/tooltip.js"></script>
     <title>Tikipedia</title>
 </head>
 <body>
@@ -181,6 +182,7 @@
 
     <main>
 
+        <!-- Hero Section -->
         <!-- Carousel Section
             NOTE : THIS WILL ONLY DISPLAY IN WIDTH OF 700px
         -->
@@ -199,7 +201,7 @@
                         </section>
                         <section class="carousel-item">
                             <h3>Impact of Tikipedia</h3>
-                            <p>Explore how Tikipedia has trasnformed<br>knowledge sharing.</p>
+                            <p>Explore how Tikipedia has transformed<br>knowledge sharing.</p>
                         </section>
                         <section class="carousel-item">
                             <h3>Tikipedia Controversies</h3>
@@ -245,7 +247,7 @@
                     <img src="img/slide_3.svg" alt="" class="d-block mx-auto image-slide img-fluid w-50">
                     <section class="carousel-caption d-block">
                         <h3>Impact of Tikipedia</h3>
-                        <p>Explore how Tikipedia has trasnformed<br>knowledge sharing.</p>
+                        <p>Explore how Tikipedia has transformed<br>knowledge sharing.</p>
                     </section>
                 </section>
                 <section class="carousel-item">
@@ -273,8 +275,290 @@
             </button>
         </section>
 
-
+        <!-- End of Hero Section -->
         
+
+        <!-- Article Sections -->
+        <article class="container p-md-5">
+            <section class="row mb-4">
+
+                <!-- Card One -->
+                <section class="col">
+                    <section class="card border-dark">
+                        <section class="card-header h5">From today's featured article</section>
+                        <!-- <img src="img/small_slide_6.svg" alt="" class="card-img-top"> -->
+                        <figure class="figure">
+                            <img src="img/articles/article_image_1.jpg" alt="" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mx-3">Cast of It's That Man Again in 1944</figcaption>
+                        </figure>
+                        <section class="card-body">
+                            <section class="accordion" id="accordionPanelsStayOpenExample">
+                                <section class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="" aria-controls="panelsStayOpen-collapseOne">
+                                            Read Article
+                                        </button>
+                                    </h2>
+                                    <section id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <section class="accordion-body">
+                                            <a href="#" data-bs-toggle="tooltip" class="link">It's That Man Again</a> (ITMA) was a <a href="#" data-bs-toggle="tooltip" class="link">radio comedy</a> programme that was broadcast by the <a href="#" data-bs-toggle="tooltip" class="link">BBC</a> for twelve series from 1939 to 1949, featuring<br><a href="#" data-bs-toggle="tooltip" class="link">Tommy Handley</a> in the central role. ITMA was a character-driven comedy whose satirical targets included <a href="#" data-bs-toggle="tooltip" class="link">officialdom</a> and the proliferation of minor
+                                            wartime regulations. Parts of the scripts were rewritten in the hours before the broadcast, to ensure topicality. ITMA
+                                            was an important contributor to British morale during the war, with its cheerful take on the day-to-day preoccupations
+                                            of the public, but its detailed topicality—one of its greatest attractions at the time—has prevented it from wearing
+                                            well on repeated hearing. Handley died during the twelfth series, the remaining programmes of which were immediately
+                                            cancelled: ITMA could not work without him, and no further series were commissioned. ITMA's innovative structure was
+                                            successfully continued in comedy shows of the 1950s and 1960s, such as Take It from Here, The Goon Show and Round the Horne. (Full article...)
+                                        </section>
+                                    </section>
+                                </section>
+                                <section class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="" aria-controls="panelsStayOpen-collapseTwo">
+                                            Recently Featured
+                                        </button>
+                                        <section id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <section class="accordion-body list-group list-group-flush">
+                                                <a href="#" class="h6 list-group-item link link-no-line">Starship Troopers</a>
+                                                <a href="#" class="h6 list-group-item link link-no-line">James B. Weaver</a>
+                                                <a href="#" class="h6 list-group-item link link-no-line">Sumitro Djojohadikusumo</a>
+                                            </section>
+                                        </section>
+                                    </h2>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="card-footer text-center">
+                            <a href="#" class="card-link">Archive</a>
+                            <a href="#" class="card-link">By email</a>
+                            <a href="#" class="card-link">More featured articles</a>
+                            <a href="#" class="card-link">About</a>
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+
+            <section class="row mb-4">
+                <section class="col">
+                    <!-- Card Two -->
+                    <section class="col">
+                        <section class="card border-dark">
+                            <section class="card-header h5">In the News</section>
+                            <!-- <img src="img/small_slide_6.svg" alt="" class="card-img-top"> -->
+                            <figure class="figure">
+                                <img src="img/articles/article_image_2.jpg" alt="" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ducimus dignissimos nostrum tenetur consequatur adipisci.</figcaption>
+                            </figure>
+                            <section class="card-body">
+                                <section class="accordion" id="accordionPanelsStayOpenExample">
+                                    <section class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded=""
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                Read Article
+                                            </button>
+                                        </h2>
+                                        <section id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree">
+                                            <section class="accordion-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad numquam nisi provident adipisci vel quaerat maxime quo modi dolore ut alias, iste sed, magni assumenda necessitatibus excepturi consequuntur quod sequi! Ipsum molestias perferendis molestiae vitae adipisci. Provident veniam, nam placeat et aperiam deleniti sint sequi dolorem architecto tempora blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quaerat minus ducimus numquam, quidem nemo labore animi nostrum, placeat reprehenderit vel repellat quasi excepturi doloremque facilis. Error asperiores consectetur, atque ea officiis necessitatibus maxime architecto quae doloremque quos cupiditate reiciendis quia vero neque suscipit esse temporibus inventore blanditiis corporis minus?
+                                            </section>
+                                        </section>
+                                    </section>
+                                    
+                                    <section class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-HeadingFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="" aria-controls="panelsStayOpen-collapseFive">
+                                                Ongoing
+                                            </button>
+                                        </h2>
+                                        <section class="accordion-collapse collapse" id="panelsStayOpen-collapseFive" aria-labelledby="panelsStayOpen-headingFive">
+                                            <section class="accordion-body">
+                                                <a href="#" class="card-link">Lorem ipsum dolor sit amet.</a>
+                                            </section>
+                                        </section>
+                                    </section>
+
+                                    <section class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="" aria-controls="panelsStayOpen-collapseFour">
+                                                Recent Deaths
+                                            </button>
+                                        </h2>
+                                        <section id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingFour">
+                                            <section class="accordion-body list-group list-group-flush">
+                                                <a href="#" class="list-group-item link link-no-line">Lorem, ipsum dolor.</a>
+                                                <a href="#" class="list-group-item link link-no-line">Lorem ipsum dolor sit amet consectetur.</a>
+                                                <a href="#" class="list-group-item link link-no-line">Lorem, ipsum.</a>
+                                                <a href="#" class="list-group-item link link-no-line">Lorem, ipsum.</a>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer text-center">
+                                <a href="#" class="card-link">Archive</a>
+                                <a href="#" class="card-link">By email</a>
+                                <a href="#" class="card-link">More featured articles</a>
+                                <a href="#" class="card-link">About</a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+
+                <!-- Card Three -->
+                <section class="col">
+                    <section class="card border-dark">
+                        <section class="row g-0">
+                            <section class="card-header h5">Did you know...</section>
+                            <!-- <img src="img/small_slide_6.svg" alt="" class="card-img-top"> -->
+                            <section class="col">
+                                <figure class="figure">
+                                    <img src="img/articles/article_image_3.jpg" alt="" class="figure-img img-fluid">
+                                    <figcaption class="figure-caption mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+                                </figure>
+                            </section>
+                            <section class="col">
+                                <section class="card-body">
+                                    <section class="accordion" id="accordionPanelsStayOpenExample">
+                                        <section class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded=""
+                                                    aria-controls="panelsStayOpen-collapseSix">
+                                                    Read Article
+                                                </button>
+                                            </h2>
+                                            <section id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show"
+                                                aria-labelledby="panelsStayOpen-headingSix">
+                                                <section class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta quisquam, fugit, quis sunt excepturi quas provident quos repellat rem atque, suscipit esse magnam explicabo? Eos ut tenetur commodi maiores repellat nemo in voluptas, architecto, ullam eaque nam. Deserunt, magni? Nam repudiandae aut corrupti distinctio debitis quis nulla expedita maiores!
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="card-footer text-center">
+                            <a href="#" class="card-link">Archive</a>
+                            <a href="#" class="card-link">By email</a>
+                            <a href="#" class="card-link">More featured articles</a>
+                            <a href="#" class="card-link">About</a>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Card Four -->
+                <section class="col">
+                    <section class="card border-dark">
+                        <section class="card-header h5">On This Day</section>
+                        <figure class="figure">
+                            <img src="img/articles/article_image_4.jpg" alt="" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi!</figcaption>
+                        </figure>
+                        <section class="card-body">
+                            <section class="accordion" id="accordionPanelsStayOpenExample">
+                                <section class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="" aria-controls="panelsStayOpen-collapseSeven">
+                                            Read Article
+                                        </button>
+                                    </h2>
+                                    <section id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                                        <h5 class="card-title mx-3 my-3">March 12</h5>
+                                        <section class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus corrupti fugiat neque velit accusamus omnis dolores sequi quibusdam consectetur. Facilis pariatur itaque officiis exercitationem ut, velit tempore, quidem eum ipsam voluptate blanditiis sequi cum? Odit autem iusto, facere placeat soluta ipsam quis nobis, quod provident reiciendis hic fugiat architecto officiis animi. Quos nam eius architecto facere quidem, repellendus non possimus delectus necessitatibus molestiae quo error cum ex deserunt temporibus sit ipsum voluptas eum voluptatibus numquam illo earum esse quaerat quia? Obcaecati officiis a optio, repellendus modi aliquam voluptate at aperiam reiciendis quam laborum quidem mollitia itaque aut voluptatibus velit, vero inventore excepturi sunt! Obcaecati aperiam incidunt, sunt dolores iste accusantium sint illum nostrum pariatur nobis, minima, laborum veniam? Repudiandae, saepe!
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="card-footer text-center">
+                            <a href="#" class="card-link">Archive</a>
+                            <a href="#" class="card-link">By email</a>
+                            <a href="#" class="card-link">More featured articles</a>
+                            <a href="#" class="card-link">About</a>
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+
+            <!-- Card Five -->
+            <section class="row mb-4">
+                <section class="col">
+                    <section class="card border-dark">
+                        <section class="card-header h5">From today's featured article</section>
+                        <!-- <img src="img/small_slide_6.svg" alt="" class="card-img-top"> -->
+                        <figure class="figure text-center">
+                            <img src="img/articles/article_image_5.jpg" alt="" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mx-3">Photograph credit: Charles J. Sharp</figcaption>
+                        </figure>
+                        <section class="card-body">
+                            <section class="accordion" id="accordionPanelsStayOpenExample">
+                                <section class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded=""
+                                            aria-controls="panelsStayOpen-collapseEight">
+                                            Read Article
+                                        </button>
+                                    </h2>
+                                    <section id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show"
+                                        aria-labelledby="panelsStayOpen-headingEight">
+                                        <section class="accordion-body">
+                                            The rhesus macaque (Macaca mulatta), is a species of Old World monkey native to South, Central, and Southeast Asia. It
+                                            has the widest geographic range of all non-human primates, occupying a great diversity of altitudes and a great variety
+                                            of habitats, from grasslands to arid and forested areas, but also close to human settlements. Generally brown or grey in
+                                            colour, it is 47 to 53 cm (19 to 21 in) in length with a 20.7 to 22.9 cm (8.1 to 9.0 in) tail and weighs 5.3 to 7.7 kg
+                                            (12 to 17 lb). Due to its wide availability and biological similarity to humans, the rhesus macaque has been used
+                                            extensively in medical and biological research. It has facilitated breakthroughs including vaccines for rabies,
+                                            smallpox, and polio and antiretroviral medication to treat HIV/AIDS. A rhesus macaque became the first primate astronaut
+                                            in 1948, but died during the flight, followed on 14 June 1949 by Albert II, who became the first primate and first
+                                            mammal in space. This male rhesus macaque, of the subspecies M. m. mulatta, was photographed in the Gokarna Forest,
+                                            Nepal.
+                                        </section>
+                                    </section>
+                                </section>
+                                <section class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseNine" aria-expanded=""
+                                            aria-controls="panelsStayOpen-collapseNine">
+                                            Recently Featured
+                                        </button>
+                                        <section id="panelsStayOpen-collapseNine" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingNine">
+                                            <section class="accordion-body list-group list-group-flush">
+                                                <a href="#" class="h6 list-group-item link link-no-line">Fishing vessel</a>
+                                                <a href="#" class="h6 list-group-item link link-no-line">Mount Ngauruhoe</a>
+                                                <a href="#" class="h6 list-group-item link link-no-line">Marie Stopes</a>
+                                            </section>
+                                        </section>
+                                    </h2>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="card-footer text-center">
+                            <a href="#" class="card-link">Archive</a>
+                            <a href="#" class="card-link">More featured pictures</a>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+        </article>
+
+        <!-- Other Areas of Wikipedia Section -->
 
     </main>
 
