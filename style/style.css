@@ -65,10 +65,53 @@
     font-weight: 500;
 }
 
+/** Other Area of Tikipedia section **/
 .other-area-header {
     font-weight: bolder;
 }
 
+.other-area-header:hover {
+    color: #101010 !important;
+}
+
+
+/** Tikipedia Language section 
+    text in the center of hr
+**/
+.hr-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.hr-text p {
+    margin: auto;
+    font-size: 1em;
+}
+
+.hr-text hr {
+    flex: 1;
+}
+
+
+/** Footer Links **/
+.footer-links ul {
+    padding: 0;
+}
+
+.footer-links ul li {
+    list-style-type: none;
+    text-align: start;
+}
+
+.footer-links ul li a {
+    font-size: 0.8em;
+}
+
+.buttons {
+    padding: 0;
+}
 
 @media (max-width: 700px) {
     
